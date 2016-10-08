@@ -7,9 +7,6 @@
 [submodule ".vim/elm-vim"]
 	path = .vim/bundle/elm-vim
 	url = https://github.com/ElmCast/elm-vim.git
-[submodule ".vim/happy_hacking.vim"]
-	path = .vim/bundle/happy_hacking.vim
-	url = https://github.com/YorickPeterse/happy_hacking.vim.git
 [submodule ".vim/syntastic"]
 	path = .vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
