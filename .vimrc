@@ -3,9 +3,10 @@ execute pathogen#infect()
 
 " [COLORS]
 if has('gui_running')
-  colorscheme happy_hacking
+  colorscheme two-firewatch
 
   set number
+  set background=dark
   set colorcolumn=80
 else
   colorscheme off
@@ -27,7 +28,7 @@ set smartcase
 set scrolloff=1
 
 " [OPTIONS] GUI
-set guifont=Source\ Code\ Pro:h14
+set guifont=Source\ Code\ Pro:h12
 set guioptions=egm
 
 " [OPTIONS] tabs and indenting
@@ -38,7 +39,7 @@ set expandtab
 " [OPTIONS] mapping
 set ttimeoutlen=0
 
-" [OPTIONS} the swap file
+" [OPTIONS] the swap file
 set noswapfile
 
 " [PLUGIN] elm-vim
