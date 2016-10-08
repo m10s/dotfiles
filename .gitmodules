@@ -11,7 +11,7 @@
 	path = .vim/bundle/happy_hacking.vim
 	url = https://github.com/YorickPeterse/happy_hacking.vim.git
 [submodule ".vim/syntastic"]
-	path = .vim/syntastic
+	path = .vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 [submodule ".vim/syntastic-local-eslint.vim"]
 	path = .vim/bundle/syntastic-local-eslint.vim
