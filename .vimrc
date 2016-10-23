@@ -31,6 +31,9 @@ set scrolloff=1
 set guifont=Source\ Code\ Pro:h12
 set guioptions=egm
 
+" [OPTIONS] messages and info
+set ruler
+
 " [OPTIONS] tabs and indenting
 set shiftwidth=2
 set softtabstop=2
