@@ -3,11 +3,10 @@ execute pathogen#infect()
 
 " [COLORS]
 if has('gui_running')
-  colorscheme two-firewatch
+  colorscheme tender
 
   set number
   set background=dark
-  set colorcolumn=80
 else
   colorscheme off
 end
@@ -44,6 +43,9 @@ set ttimeoutlen=0
 
 " [OPTIONS] the swap file
 set noswapfile
+
+" [EDITOR] macvim
+let macvim_skip_colorscheme = 1
 
 " [PLUGIN] elm-vim
 let g:elm_format_autosave = 1

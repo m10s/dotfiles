@@ -40,3 +40,6 @@
 [submodule ".vim/bundle/vim-two-firewatch"]
 	path = .vim/bundle/vim-two-firewatch
 	url = https://github.com/rakr/vim-two-firewatch.git
+[submodule ".vim/bundle/tender.vim"]
+	path = .vim/bundle/tender.vim
+	url = https://github.com/jacoborus/tender.vim.git
